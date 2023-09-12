@@ -24,7 +24,7 @@ The primary use cases for the Stringinator API include:
 
 ## API Architecture
 
-The Stringinator 3000 API is built using the Echo framework for handling HTTP requests. It utilizes the BoltDB database for storing statistics data. The API includes the following components:
+The Stringinator API is built using the Echo framework for handling HTTP requests. It utilizes the BoltDB database for storing statistics data. The API includes the following components:
 
 - **Endpoints:** API endpoints for string analysis, transformation, and statistics retrieval.
 - **Validation:** Input data validation using the Go Playground Validator library.
